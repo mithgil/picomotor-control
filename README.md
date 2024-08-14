@@ -4,7 +4,7 @@ Using Terminal Code or Scripts to Drive Newport Picomotor in Linux
 
 2024/8/14
 
-There are a few alternative python projects available about controlling Picomotor. Non of these project offers a comprehensive guide for a Linux user from scratch. The complete manual for Picomotor and relevant documents are available on the official [website](https://www.newport.com/f/open-loop-picomotor-motion-controller). Here is a comprehesive guide to Picomotor controller through terminal or scripts from basic settings to coding step by step. A python script and a CMake c++ project are provided.
+There are a few alternative python projects available about controlling Picomotor. None of these projects offers a comprehensive guide for a Linux user from scratch. The complete manual for Picomotor and relevant documents are available on the official [website](https://www.newport.com/f/open-loop-picomotor-motion-controller). Here is a comprehesive guide to Picomotor controller through terminal or scripts from basic settings to coding step by step. A python script and a CMake c++ project are provided.
 
 ## Step 1: Install minicom
 
