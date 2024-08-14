@@ -43,7 +43,7 @@ Save configuration:
 After setting up, you can save the configuration for future use.
 Exit back to the main menu and select Save setup as dfl (default).
 Esxit setup and start communication:
- The complete manual for Picomotor and relevant documents are available on the official [website](https://www.newport.com/f/open-loop-picomotor-motion-controller)
+ The complete manual for Picomotor and relevant documents are available on the official [website](https://www.newport.com/f/open-loop-picomotor-motion-controller).
 After saving, choose Exit Linux user from the configuration menu to start using minicom with the controller.scratch.
 
 ## Step 4. Install usbutils and Load USB device
