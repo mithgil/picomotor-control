@@ -95,10 +95,11 @@ Configure Serial Settings:
 Press Ctrl + A, then Z to open the minicom help menu.
 Press O to configure minicom.
 Navigate to "Serial port setup" and set the following parameters:
-A - Serial Device: Ensure it's set to /dev/ttyUSB0 or your specific port.
-E - Bps/Par/Bits: Match the baud rate, parity, and stop bits required by the device (common settings might be 9600 8N1).
-F - Hardware Flow Control: Set to No.
-G - Software Flow Control: Set to No.
+
+- A. Serial Device: Ensure it's set to /dev/ttyUSB0 or your specific port.
+- E. Bps/Par/Bits: Match the baud rate, parity, and stop bits required by the device (common settings might be 9600 8N1).
+- F. Hardware Flow Control: Set to No.
+- G. Software Flow Control: Set to No.
 
 Save and Connect:
 
