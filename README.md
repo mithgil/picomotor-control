@@ -32,19 +32,17 @@ Launch minicom with the following command to configure the serial port:
 sudo minicom -s
 ```
 
-Serial port setup:
-
-Choose Serial port setup.
-Set the serial device to /dev/ttyUSB0 or whatever your device was identified as.
-Configure the baud rate to match the controller’s settings (typically 9600, 8N1 for RS485).
-Press Enter to confirm.
-Save configuration:
+- Choose Serial port setup.
+- Set the serial device to /dev/ttyUSB0 or whatever your device was identified as.
+- Configure the baud rate to match the controller’s settings (typically 9600, 8N1 for RS485).
+- Press Enter to confirm.
+- Save configuration:
 
 After setting up, you can save the configuration for future use.
 Exit back to the main menu and select Save setup as dfl (default).
-Esxit setup and start communication:
- The complete manual for Picomotor and relevant documents are available on the official [website](https://www.newport.com/f/open-loop-picomotor-motion-controller).
-After saving, choose Exit Linux user from the configuration menu to start using minicom with the controller.scratch.
+Exit setup and start communication:
+
+After saving, choose Exit Linux user from the configuration menu to start using minicom with the controller.
 
 ## Step 4. Install usbutils and Load USB device
 
