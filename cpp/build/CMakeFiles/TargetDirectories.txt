@@ -1,0 +1,3 @@
+/home/tim/python/picomotor/cpp/build/CMakeFiles/move.dir
+/home/tim/python/picomotor/cpp/build/CMakeFiles/edit_cache.dir
+/home/tim/python/picomotor/cpp/build/CMakeFiles/rebuild_cache.dir
