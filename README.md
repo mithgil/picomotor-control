@@ -183,7 +183,7 @@ ser = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
 ser.write(b'1PR 5000\r\n')
     
 # Close the csonnection
-ser.close() The complete manual for Picomotor and relevant documents are available on the official [website](https://www.newport.com/f/open-loop-picomotor-motion-controller)
+ser.close() 
 ```
 
 This script sends the `1PR 5000` command and prints any response Linux user from the controller.scratch.
