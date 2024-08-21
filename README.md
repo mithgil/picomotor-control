@@ -58,16 +58,17 @@ show usb device
 ```bash
 lsusb
 ```
-and it should print
+and it should print something like:
 `Bus 001 Device 010: ID 104d:4000 Newport Corporation Picomotor Controller`
 
 where the ID is a crucial information.
 
-Try Loading USB Serial Drivers:
+Try Loading USB Serial Drivers with previous info:
 ```bash
 sudo modprobe usbserial vendor=0x104d product=0x4000
 ```
 Then check if a `/dev/ttyUSB*` device appears.
+**Note** this step is very **important**! Otherwise, you will give up programming in Linux.
 
 
 ## Step 5. Check Permissions
@@ -186,6 +187,6 @@ ser.write(b'1PR 5000\r\n')
 ser.close() 
 ```
 
-This script sends the `1PR 5000` command and prints any response Linux user from the controller.scratch.
+This script sends the `1PR 5000` command and prints any response Linux user from the controller.
 
 Another similiar cmake project is also provided if you prefer c++. 
